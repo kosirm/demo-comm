@@ -1106,7 +1106,7 @@
             "shop__showSidebar": true,
             "shop__showCardButtons": true,
             "shop__showSortButtons": true,
-            "shop__showBestSellers": true,
+            "shop__showBestSellers": false,
             "shop__showPriceRange": false,
             "shop__showTags": true,
             "text_all": "All",
