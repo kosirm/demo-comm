@@ -1077,7 +1077,7 @@
             }
           },
           "_name": "shop1",
-          "_customHTML": "<section class=\"mbr-gallery\" group=\"Shops\" plugins=\"mobirise-shop,Gallery\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline=\"\">\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline=\"\">\n        <input type=\"color\" title=\"On Sale Bg\" name=\"saleBg\" value=\"#66458e\">\n        <input type=\"color\" title=\"Card Bottom Color\" name=\"cardBottom\" value=\"#f7f7f7\">\n        <input type=\"color\" title=\"Sidebar Bg\" name=\"sidebarBg\" value=\"#f7f7f7\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"shop\" title=\"Shop\" name=\"shop\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <!-- <div class=\"big-container\"> -->\n    <div class=\"container\">\n        <div mbr-shop=\"shop\" class=\"mbr-shop\" show-sidebar=\"\" mbr-shop-minimal=\"\"></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery\" group=\"Shops\" plugins=\"mobirise-shop,Gallery\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"On Sale Bg\" name=\"saleBg\" value=\"#66458e\">\n        <input type=\"color\" title=\"Card Bottom Color\" name=\"cardBottom\" value=\"#f7f7f7\">\n        <input type=\"color\" title=\"Sidebar Bg\" name=\"sidebarBg\" value=\"#f7f7f7\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"shop\" title=\"Shop\" name=\"shop\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <!-- <div class=\"big-container\"> -->\n    <div class=\"container\">\n        <div mbr-shop=\"shop\" class=\"mbr-shop\" show-sidebar mbr-shop-minimal show-buttons sorting></div>\n    </div>\n\n</section>",
           "_cid": "r1m3pDDIGr",
           "_anchor": "shop1-1",
           "_protectedParams": [
@@ -1104,10 +1104,10 @@
           "_once": false,
           "_params": {
             "shop__showSidebar": true,
-            "shop__showCardButtons": false,
-            "shop__showSortButtons": false,
+            "shop__showCardButtons": true,
+            "shop__showSortButtons": true,
             "shop__showBestSellers": true,
-            "shop__showPriceRange": true,
+            "shop__showPriceRange": false,
             "shop__showTags": true,
             "text_all": "All",
             "sidebar1": "Best Sellers",
